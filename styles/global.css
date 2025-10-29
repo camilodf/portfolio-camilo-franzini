@@ -7,5 +7,28 @@
 :root{
     --bg-img-intro: url('../assets/images/background/Background_Intro.png');
     --bg-img-contacts: url('../assets/images/background/Background_Contacts.png');
+    --bg-color-projects: #16181D;
+    --bg-color-services: #0D0E11;
+    --bg-color-tag: #292C34;
+    --bg-color-card: #878EA1;
+
+    --text-color-primary: #E2E4E9;
+    --text-color-secondary: #C0C4CE;
+    --text-span-title: #E3646E;   
+    --text-span-contact: #BB72E9; 
+    --text-p-about: #878EA1;
+    
+    /*Font Asap*/
+    --title-lg: 800 56px/120% 'asap', sans-serif;
+    --title-md: 800 24px/120% 'asap', sans-serif;
+    --title-sm: 800 16px/120% 'asap', sans-serif;
+
+    /*Inconsolata*/
+    --subtitle: 600 20px/120% 'inconsolata', monospace;
+
+    /*Maven Pro*/
+    --text-md: 400 16px/140% 'maven pro', sans-serif;
+    --text-sm: 400 14px/140% 'maven pro', sans-serif;
+
     
 }

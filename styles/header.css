@@ -1,0 +1,82 @@
+/*MOBILE FIRST*/
+header{
+    background-image: var(--bg-img-intro);
+    background-size: cover;
+    height: 90vh;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: 2rem
+    
+}
+
+.profile > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom:2rem;
+}
+
+.profile .text-intro{
+    font: var(--subtitle);
+    color: var(--text-color-secondary);
+    margin-bottom: 8px;
+}
+
+.profile span{
+    color: var(--text-span-title);
+}
+
+.profile h1{
+    font: var(--title-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 1rem;
+}
+
+.profile .text-about{
+    font: var(--text-md);
+    color: var(--text-p-about);
+    max-width: 400px;
+    margin-bottom: 2rem;
+}
+
+.tech-stack-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.tech-stack-list button{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    height: 3rem;
+    width: auto;
+
+    background-color: var(--bg-color-tag);
+    border: 2px solid var(--text-color-secondary);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+
+    font: var(--text-sm);
+    color: var(--text-color-secondary);
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tech-stack-list button img{
+    width: 20px;
+    height: 20px;
+}
