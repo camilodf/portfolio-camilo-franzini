@@ -2,10 +2,10 @@
 header{
     background-image: var(--bg-img-intro);
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
 }
 
-.profile{
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,8 +15,11 @@ header{
     padding: 2rem
     
 }
-
-.profile > img{
+.picture{
+    position: relative;
+    display: inline-block;
+}
+.picture > img{
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -24,23 +27,32 @@ header{
     margin-bottom:2rem;
 }
 
-.profile .text-intro{
+.picture img + img{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.text-intro{
     font: var(--subtitle);
     color: var(--text-color-secondary);
     margin-bottom: 8px;
 }
 
-.profile span{
+.text span{
     color: var(--text-span-title);
 }
 
-.profile h1{
+.text h1{
     font: var(--title-lg);
     color: var(--text-color-primary);
     margin-bottom: 1rem;
 }
 
-.profile .text-about{
+.text .text-about{
     font: var(--text-md);
     color: var(--text-p-about);
     max-width: 400px;
@@ -48,11 +60,12 @@ header{
 }
 
 .tech-stack-list{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
     padding: 0;
     margin: 0;
+    margin-bottom: 2rem; ;
     list-style: none;
 }
 
@@ -62,11 +75,11 @@ header{
     gap: 0.5rem;
 
     height: 3rem;
-    width: auto;
+    width: 7.5rem;
 
     background-color: var(--bg-color-tag);
-    border: 2px solid var(--text-color-secondary);
-    border-radius: 8px;
+    border: 1PX;
+    border-radius: 16px;
     padding: 0.5rem 1rem;
 
     font: var(--text-sm);
@@ -80,3 +93,24 @@ header{
     width: 20px;
     height: 20px;
 }
+
+#html-icon img{
+    filter: brightness(0) saturate(100%) invert(39%) sepia(83%) saturate(749%) hue-rotate(357deg) brightness(95%) contrast(92%);
+}
+
+#css-icon img{
+    filter: brightness(0) saturate(100%) invert(27%) sepia(76%) saturate(3163%) hue-rotate(201deg) brightness(95%) contrast(101%);
+}
+
+#js-icon img{
+     filter: brightness(0) saturate(100%) invert(85%) sepia(76%) saturate(2479%) hue-rotate(4deg) brightness(105%) contrast(104%)
+}
+
+#react-icon img{
+    filter: brightness(0) saturate(100%) invert(46%) sepia(73%) saturate(2643%) hue-rotate(169deg) brightness(95%) contrast(101%);
+}
+
+#nodejs-icon img{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(72%) saturate(441%) hue-rotate(81deg) brightness(95%) contrast(90%);
+}
+
