@@ -53,3 +53,12 @@ main{
 .cards p{
     margin-bottom: 1rem;
 }
+
+.cards-button a{
+    text-decoration: none;
+    font: var(--text-sm);
+    color: var(--text-color-primary);
+    background-color: var(--bg-color-card);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
