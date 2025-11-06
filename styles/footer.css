@@ -1,0 +1,48 @@
+footer{
+    background-color: var(--bg-color-services);
+}
+
+.services{
+    height: 70vh;
+    
+    text-align: center;
+}
+
+.text-services span{
+    color: var(--text-span-title) ;
+    font: var(--subtitle);
+}
+
+.text-services h3{
+    font: var(--title-md);
+    color: var(--text-color-primary);
+    margin-bottom: 1rem;
+}
+
+.services-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.card-img{
+    width: 20rem;
+    height: auto;
+padding: 1rem;
+
+    margin-bottom: 1vh;
+
+    border: 1px solid var(--bg-color-card);
+    border-radius: 1.5rem;
+
+}
+
+.card-img img{
+    width: 4rem;
+    
+
+}
+.contacts{
+    background-image: var(--bg-img-contacts);
+}
