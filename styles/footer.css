@@ -77,29 +77,31 @@ padding: 1rem;
     gap: 2rem;
     margin-bottom: 2rem;
 
-    width: 50vw;
+    width: 70vw;
 }
 
 .list-contacts li{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    font: var(--text-md);
-     background-color: var(--bg-color-tag);
-    
-    height: 5rem;
+    list-style: none;  
 }
 
 .list-contacts a{
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: space-between;       
+    align-items: center;
 
-   
+  height: 5rem; /* A altura fixa vem para o container flex */
+  background-color: var(--bg-color-tag); /* A cor de fundo vem para cá */
+  padding: 0 1.5rem; /* Espaçamento interno horizontal */    
+
+  text-decoration: none; /* Remove o sublinhado azul */
+  color: var(--text-color-primary); /* Garante que o texto tenha a cor certa */
+  font: var(--text-md); /* Movemos a fonte para cá */
+  border-radius: 8px; /* Bônus: deixa os cantos bonitos */
 }
 
 .list-contacts a .link-content{
     display: flex;
-    align-content: center;
+    align-items: center;
     gap: 0.5rem;
+    
 }

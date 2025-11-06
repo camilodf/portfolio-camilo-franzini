@@ -63,10 +63,25 @@ main{
 }
 
 .cards-button a{
-    text-decoration: none;
-    font: var(--text-sm);
-    color: var(--text-color-primary);
-    background-color: var(--bg-color-card);
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+  text-decoration: none;
+  font: var(--text-sm);
+  padding: 0.5rem 1rem;
+  
+  background-color: transparent; 
+  
+  border: 1px solid var(--text-color-secondary); 
+  color: var(--text-color-secondary);
+  border-radius: 8px; 
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cards-button a:hover {
+  /* Inverte as cores no hover */
+  background-color: var(--text-color-secondary);
+  color: var(--bg-color-card); /* Cor de fundo do card */
+  
+  /* Efeito de "levantar" que discutimos */
+  transform: translateY(-3px); 
 }
