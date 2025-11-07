@@ -14,7 +14,7 @@ html{
     --bg-img-contacts: url('../assets/images/background/Background_Contacts.png');
 
     /*Background Colors*/
-    --bg-color-projects: #16181D;  /*gray-500*/
+    --bg-color-projects: #16181D  /*gray-500*/
     --bg-color-services: #0D0E11;   /*gray-600*/
     --bg-color-tag: #292C34; /*gray-400*/
     --bg-color-card: #878EA1; /*gray-300*/
@@ -26,7 +26,6 @@ html{
     /*Accent Colors*/
     --text-span-title: #FF6B6B;   /*red span*/
     --text-span-contact: #BB72E9; /*purple span*/
-    --text-p-about: #E0E0E0;
     
     /*Fonts*/   
     /*Asap*/
@@ -45,14 +44,14 @@ html{
      /*Asap*/
     --title-lg-mobile: 800 5rem/120% 'asap', sans-serif;
     --title-md: 800 2.4rem/120% 'asap', sans-serif;
-    --title-sm: 800 1.6rem/120% 'asap', sans-serif;
+    --title-sm-mobile: 800 2rem/120% 'asap', sans-serif;
 
     /*Inconsolata*/
     --subtitle-mobile: 600 2rem/120% 'inconsolata', monospace;
 
     /*Maven Pro*/
-    --text-md: 400 1.6rem/140% 'maven pro', sans-serif;
-    --text-sm: 400 1.4rem/140% 'maven pro', sans-serif;
+    --text-md-mobile: 400 1.6rem/140% 'maven pro', sans-serif;
+    --text-sm-mobile: 400 1.5rem/140% 'maven pro', sans-serif;
 
     
 }

@@ -3,36 +3,37 @@ main{
     width: auto;
 
     margin-bottom: 2rem;
+    border: 1px solid green;
 }
 
 #projects{
     padding: 0 2rem;
 }
 
-.projects p{
-    font: var(--text-md);
-    color: var(--text-p-about);
-}
-
-
 .text-projects{
     text-align: center;    
 }
 
+.text-projects p{
+    font: var(--text-md-mobile);
+    color: var( --text-color-primary);
+}
+
+
 .text-projects span{
     color: var(--text-span-title);
-    font: var(--subtitle);
+    font: var(--subtitle-mobile);
 }
 
 .text-projects p{
-    max-width: 600px;
+    max-width: 60rem;
     margin: 1rem auto 2rem auto;
 }
 
 .cards-grid{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
 .cards-grid .cards{
     display: flex;
@@ -40,26 +41,34 @@ main{
     align-items: center;
 
     background-color: var(--bg-color-tag);
-    border-radius: 1rem;
-    padding: 1rem;
+    border-radius: 2rem;
+    padding: 2rem;
 }
 
 .cards img{
-    width: 20rem;
-    height: 10rem;
+    width: 35rem;
+    height: 16rem;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .cards h3{
-    font: var(--title-sm);
+    font: var(--title-sm-mobile);
     color: var(--text-color-primary);
     margin: 1rem 0;
     justify-content: center;
 }
 
 .cards p{
-    margin-bottom: 1rem;
+    font: var(--text-sm-mobile);
+    color: var(--text-color-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.cards-button{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 .cards-button a{
@@ -78,10 +87,7 @@ main{
 }
 
 .cards-button a:hover {
-  /* Inverte as cores no hover */
   background-color: var(--text-color-secondary);
-  color: var(--bg-color-card); /* Cor de fundo do card */
-  
-  /* Efeito de "levantar" que discutimos */
+  color: var(--bg-color-card);
   transform: translateY(-3px); 
 }
