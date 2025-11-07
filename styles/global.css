@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 
 :root{
     /*background-img*/
@@ -19,6 +22,7 @@
     /*Text Colors*/
     --text-color-primary: #E2E4E9; /*gray-100*/
     --text-color-secondary: #D1D1D1; /*gray-200*/
+    --text-color-tertiary: #878EA1; /*gray-300*/
     /*Accent Colors*/
     --text-span-title: #FF6B6B;   /*red span*/
     --text-span-contact: #BB72E9; /*purple span*/
@@ -26,16 +30,29 @@
     
     /*Fonts*/   
     /*Asap*/
-    --title-lg: 800 56px/120% 'asap', sans-serif;
-    --title-md: 800 24px/120% 'asap', sans-serif;
-    --title-sm: 800 16px/120% 'asap', sans-serif;
+    --title-lg: 800 3rem/120% 'asap', sans-serif;
+    --title-md: 800 2.4rem/120% 'asap', sans-serif;
+    --title-sm: 800 1.6rem/120% 'asap', sans-serif;
 
     /*Inconsolata*/
-    --subtitle: 600 20px/120% 'inconsolata', monospace;
+    --subtitle: 600 2rem/120% 'inconsolata', monospace;
 
     /*Maven Pro*/
-    --text-md: 400 16px/140% 'maven pro', sans-serif;
-    --text-sm: 400 14px/140% 'maven pro', sans-serif;
+    --text-md: 400 1.6rem/140% 'maven pro', sans-serif;
+    --text-sm: 400 1.4rem/140% 'maven pro', sans-serif;
+
+        /*Fonts Mobile*/   
+     /*Asap*/
+    --title-lg-mobile: 800 5rem/120% 'asap', sans-serif;
+    --title-md: 800 2.4rem/120% 'asap', sans-serif;
+    --title-sm: 800 1.6rem/120% 'asap', sans-serif;
+
+    /*Inconsolata*/
+    --subtitle-mobile: 600 2rem/120% 'inconsolata', monospace;
+
+    /*Maven Pro*/
+    --text-md: 400 1.6rem/140% 'maven pro', sans-serif;
+    --text-sm: 400 1.4rem/140% 'maven pro', sans-serif;
 
     
 }

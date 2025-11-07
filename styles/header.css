@@ -2,7 +2,8 @@
 header{
     background-image: var(--bg-img-intro);
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
+    
 }
 
 .container{
@@ -10,28 +11,34 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
 
-    padding: 2rem
-    
+    text-align: center;    
+    padding: 3rem 2rem 0;    
 }
+
 .picture{
     position: relative;
     display: inline-block;
+    margin-bottom:2rem;
+
 }
 .picture > img{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;    
     object-fit: cover;
-    margin-bottom:2rem;
+    
+}
+
+#picture-profile{
+    border: 4px solid var(--text-span-title);
 }
 
 .picture img + img{
     position: absolute;
-    height: 50px;
-    width: 50px;
-    top: 50%;
+    height: 5rem;
+    width: 5rem;
+    top: 70%;
     left: 50%;
     
 }
@@ -47,25 +54,25 @@ header{
 }
 
 .text h1{
-    font: var(--title-lg);
+    font: var(--title-lg-mobile);
     color: var(--text-color-primary);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .text .text-about{
     font: var(--text-md);
-    color: var(--text-p-about);
-    max-width: 400px;
-    margin-bottom: 2rem;
+    color: var(--text-color-tertiary);
+    max-width: 40rem;
+    margin-bottom: 3rem;
 }
 
 .tech-stack-list{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 0;
     margin: 0;
-    margin-bottom: 2rem; ;
+    margin-bottom: 3rem; ;
     list-style: none;
 }
 
@@ -74,15 +81,15 @@ header{
     align-items: center;
     gap: 0.5rem;
 
-    height: 3rem;
-    width: 7.5rem;
+    height: 5rem;
+    width: 12rem;
 
     background-color: var(--bg-color-tag);
-    border: 1PX;
-    border-radius: 16px;
-    padding: 0.5rem 1rem;
+    border: 1rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
 
-    font: var(--text-sm);
+    font: var(--text-md);
     color: var(--text-color-secondary);
 
     cursor: pointer;
@@ -90,8 +97,8 @@ header{
 }
 
 .tech-stack-list button img{
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
 }
 
 #html-icon img{
