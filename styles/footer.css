@@ -3,20 +3,25 @@ footer{
 }
 
 .services{
-    height: 70vh;
+    height: auto;
     
     text-align: center;
+    padding: 2rem;
+}
+
+.text-services p{
+    margin-bottom: 1rem;
 }
 
 .text-services span{
     color: var(--text-span-title) ;
-    font: var(--subtitle);
+    font: var(--subtitle-mobile);
 }
 
 .text-services h3{
-    font: var(--title-md);
+    font: var(--title-md-mobile);
     color: var(--text-color-primary);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .services-cards{
@@ -26,10 +31,11 @@ footer{
     align-items: center;
     gap: 1rem;
 }
+
 .card-img{
-    width: 20rem;
+    width: 30rem;
     height: auto;
-padding: 1rem;
+    padding: 1rem;
 
     margin-bottom: 1vh;
 
@@ -39,12 +45,26 @@ padding: 1rem;
 }
 
 .card-img img{
-    width: 4rem;
-    
-
+    width: 8rem;
 }
+
+.services-cards h3{
+    font: var(--title-sm-mobile);
+    color: var(--text-color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.services-cards p{
+    font: var(--text-sm-mobile);
+    color: var(--text-color-secondary);
+}
+
+/*---------------------------------CONTATOS-----------------------*/
+
 .contacts{
     background-image: var(--bg-img-contacts);
+    background-size: cover;
+    padding: 4rem 2rem;
 
     display: flex;
     flex-direction: column;
@@ -53,16 +73,17 @@ padding: 1rem;
 
 .text-contacts{
     text-align: center;
-    margin: 2rem 0;
 }
 
 .text-contacts p{
-        font: var(--subtitle);
+    font: var(--text-sm-mobile);
+    margin-bottom: 1rem;
 }
 
 .text-contacts span{
     color: var(--text-span-contact);
-    margin-bottom: 1rem;
+    font: var(--subtitle-mobile);
+   
 }
 
 .text-contacts h3{
@@ -89,14 +110,14 @@ padding: 1rem;
     justify-content: space-between;       
     align-items: center;
 
-  height: 5rem; /* A altura fixa vem para o container flex */
-  background-color: var(--bg-color-tag); /* A cor de fundo vem para cá */
-  padding: 0 1.5rem; /* Espaçamento interno horizontal */    
+  height: 5rem; 
+  background-color: var(--bg-color-tag); 
+  padding: 0 1.5rem; 
 
-  text-decoration: none; /* Remove o sublinhado azul */
-  color: var(--text-color-primary); /* Garante que o texto tenha a cor certa */
-  font: var(--text-md); /* Movemos a fonte para cá */
-  border-radius: 8px; /* Bônus: deixa os cantos bonitos */
+  text-decoration: none;
+  color: var(--text-color-primary); 
+  font: var(--text-md); 
+  border-radius: 8px; 
 }
 
 .list-contacts a .link-content{

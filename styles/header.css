@@ -2,9 +2,7 @@
 header{
     background-image: var(--bg-img-intro);
     background-size: cover;
-    height: 90vh;
-    border: 1px solid red;
-    
+    height: 90vh;    
 }
 
 .container{
@@ -15,7 +13,6 @@ header{
 
     text-align: center;    
     padding: 3rem 2rem 0; 
-    border: 1px solid blue;   
 }
 
 .picture{

@@ -3,7 +3,6 @@ main{
     width: auto;
 
     margin-bottom: 2rem;
-    border: 1px solid green;
 }
 
 #projects{
@@ -80,7 +79,7 @@ main{
   
   border: 1px solid var(--text-color-secondary); 
   color: var(--text-color-secondary);
-  border-radius: 8px; 
+  border-radius: 0.8rem; 
 
   cursor: pointer;
   transition: all 0.3s ease;
