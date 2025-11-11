@@ -14,6 +14,7 @@
 <body>
     <header>
         <div class="container">            
+            <div class="about">
             <div class="picture">
                 <img src="https://media.licdn.com/dms/image/v2/C4D03AQEIrC59XdIKAQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1556029604759?e=1763596800&v=beta&t=yr3sLEWFtepNlENsIl9oDB69Bf4n4_vKXzyOPT_Xdng" 
                 alt="Picture of Camilo Franzini" id="picture-profile">
@@ -21,51 +22,52 @@
             </div>
             
             <div class="text">
-                <p class="text-intro">Hello World! My name is <span>Camilo Franzini</span> and I am a</p>
-                <h1>Web Developer</h1>
-                <p class="text-about">
-                    Leveraging 10+ years of IT Support experience to build effective and user-friendly web solutions. 
-                    Passionate about problem-solving and transitioning my technical expertise into web development.
-                </p>
-            </div>
-                <ul class="tech-stack-list" id="skills"> 
-                 <li>
-                     <button type="button" data-tech="github" id="github-icon"> 
-                         <img src="/assets/icons/GitHub.svg" alt="GitHub Icon">
-                         GitHub
-                     </button>
-                 </li>
-                 <li>
-                     <button type="button" data-tech="html" id="html-icon">
-                         <img src="/assets/icons/HTML.svg" alt="HTML Icon">
-                         HTML
-                     </button>
-                 </li>
-                 <li>
-                     <button type="button" data-tech="css" id="css-icon">
-                         <img src="/assets/icons/CSS.svg" alt="CSS Icon">
-                         CSS
-                     </button>
-                 </li>
-                 <li>
-                     <button type="button" data-tech="javascript" id="js-icon">
-                         <img src="/assets/icons/JavaScript.svg" alt="JavaScript Icon">
-                         JavaScript
-                     </button>
-                 </li>
-                 <li>
-                    <button type="button" data-tech="react" id="react-icon">
-                        <img src="/assets/icons/React.svg" alt="React Icon">
-                        React 
-                    </button>
-                 </li>
-                 <li>
-                    <button type="button" data-tech="nodejs" id="nodejs-icon">
-                        <img src="/assets/icons/Node.js.svg" alt="Node.js Icon">
-                        Node.js
-                    </button>
-                 </li>
-                </ul>
+                    <p class="text-intro">Hello World! My name is <span>Camilo Franzini</span> and I am a</p>
+                    <h1>Web Developer</h1>
+                    <p class="text-about">
+                        Leveraging 10+ years of IT Support experience to build effective and user-friendly web solutions. 
+                        Passionate about problem-solving and transitioning my technical expertise into web development.
+                    </p>
+                </div>
+                    <ul class="tech-stack-list" id="skills"> 
+                    <li>
+                        <button type="button" data-tech="github" id="github-icon"> 
+                            <img src="/assets/icons/GitHub.svg" alt="GitHub Icon">
+                            GitHub
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" data-tech="html" id="html-icon">
+                            <img src="/assets/icons/HTML.svg" alt="HTML Icon">
+                            HTML
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" data-tech="css" id="css-icon">
+                            <img src="/assets/icons/CSS.svg" alt="CSS Icon">
+                            CSS
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" data-tech="javascript" id="js-icon">
+                            <img src="/assets/icons/JavaScript.svg" alt="JavaScript Icon">
+                            JavaScript
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" data-tech="react" id="react-icon">
+                            <img src="/assets/icons/React.svg" alt="React Icon">
+                            React 
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" data-tech="nodejs" id="nodejs-icon">
+                            <img src="/assets/icons/Node.js.svg" alt="Node.js Icon">
+                            Node.js
+                        </button>
+                    </li>
+                    </ul>
+            </div>    
             <img src="/assets/icons/CaretDoubleDown.svg" alt="More Content Icon">
         </div>
     </header>
@@ -79,9 +81,11 @@
 
             <div class="cards-grid">
                 <div class="cards">
-                    <img src="/assets/images/cards/Thumbnail_Project-01.png" alt="">
-                    <h3>Travelgram</h3>
-                    <p>Social network where people share records of their travels around the world.</p>
+                    <div class="cards-content">
+                        <img src="/assets/images/cards/Thumbnail_Project-01.png" alt="">
+                        <h3>Travelgram</h3>
+                        <p>Social network where people share records of their travels around the world.</p>
+                    </div>
                     <div class="cards-button">
                         <a href="#" target="_blank">Live Demo</a>
                         <a href="#" target="_blank">Source Code</a>
@@ -89,45 +93,55 @@
                 </div>
                 
                 <div class="cards">
-                    <img src="/assets/images/cards/Thumbnail_Project-02.png" alt="">
-                    <h3>Tech News</h3>
-                    <p>Homepage for a tech news portal with a modern interface and dynamic layout.</p>
+                    <div class="cards-content">
+                        <img src="/assets/images/cards/Thumbnail_Project-02.png" alt="">
+                        <h3>Tech News</h3>
+                        <p>Homepage for a tech news portal with a modern interface and dynamic layout.</p>
+                    </div>
                     <div class="cards-button">
                         <a href="#" target="_blank">Live Demo</a>
                         <a href="#" target="_blank">Source Code</a>
                     </div>
                 </div>
                 <div class="cards">
-                    <img src="/assets/images/cards/Thumbnail_Project-03.png" alt="">
-                    <h3>Recipe Page</h3>
-                    <p>Step-by-step page showing how to make a cupcake recipe with visuals.</p>
+                    <div class="cards-content">
+                        <img src="/assets/images/cards/Thumbnail_Project-03.png" alt="">
+                        <h3>Recipe Page</h3>
+                        <p>Step-by-step page showing how to make a cupcake recipe with visuals.</p>
+                    </div>
                     <div class="cards-button">
                         <a href="#" target="_blank">Live Demo</a>
                         <a href="#" target="_blank">Source Code</a>
                     </div>
                 </div>
                 <div class="cards">
-                    <img src="/assets/images/cards/Thumbnail_Project-04.png" alt="">
-                    <h3>Zingen</h3>
-                    <p>Complete and responsive landing page for a karaoke app.</p>
+                    <div class="cards-content">
+                        <img src="/assets/images/cards/Thumbnail_Project-04.png" alt="">
+                        <h3>Zingen</h3>
+                        <p>Complete and responsive landing page for a karaoke app.</p>
+                    </div>
                     <div class="cards-button">
                         <a href="#" target="_blank">Live Demo</a>
                         <a href="#" target="_blank">Source Code</a>
                     </div>
                 </div>
                 <div class="cards">
-                    <img src="/assets/images/cards/Thumbnail_Project-05.png" alt="">
-                    <h3>Refund</h3>
-                    <p>A refund tracking and management system for submitted requests.</p>
+                    <div class="cards-content">
+                        <img src="/assets/images/cards/currency-convert.png" alt="">
+                        <h3>Convert</h3>
+                        <p>A dynamic currency converter built with vanilla JavaScript. Consumes a live API to fetch real-time exchange rates.</p>
+                    </div>
                     <div class="cards-button">
-                        <a href="#" target="_blank">Live Demo</a>
-                        <a href="#" target="_blank">Source Code</a>
+                        <a href="https://currency-converter-one-nu-78.vercel.app/" target="_blank">Live Demo</a>
+                        <a href="https://github.com/camilodf/currency-converter" target="_blank">Source Code</a>
                     </div>
                 </div>
                 <div class="cards">
-                    <img src="/assets/images/cards/Thumbnail_Project-06.png" alt="">
-                    <h3>Tourism Page</h3>
-                    <p>Tourism page showing key information for those visiting Busan.</p>
+                    <div class="cards-content">
+                        <img src="/assets/images/cards/Thumbnail_Project-06.png" alt="">
+                        <h3>Tourism Page</h3>
+                        <p>Tourism page showing key information for those visiting Busan.</p>
+                    </div>
                     <div class="cards-button">
                         <a href="#" target="_blank">Live Demo</a>
                         <a href="#" target="_blank">Source Code</a>

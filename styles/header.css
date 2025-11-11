@@ -2,7 +2,9 @@
 header{
     background-image: var(--bg-img-intro);
     background-size: cover;
-    height: 90vh;    
+    height: 95vh;   
+
+    margin-bottom: 5rem;
 }
 
 .container{
@@ -12,7 +14,16 @@ header{
     justify-content: center;
 
     text-align: center;    
-    padding: 3rem 2rem 0; 
+    padding: 4rem 2rem 0; 
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;    
 }
 
 .picture{
@@ -43,7 +54,7 @@ header{
 }
 
 .text-intro{
-    font: var(--subtitle);
+    font: var(--subtitle-mobile);
     color: var(--text-color-secondary);
     margin-bottom: 8px;
 }
@@ -61,7 +72,6 @@ header{
 .text .text-about{
     font: var(--text-md);
     color: var(--text-color-tertiary);
-    max-width: 40rem;
     margin-bottom: 3rem;
 }
 
@@ -85,7 +95,7 @@ header{
 
     background-color: var(--bg-color-tag);
     border: 1rem;
-    border-radius: 1rem;
+    border-radius: 3rem;
     padding: 1rem 1rem;
 
     font: var(--text-md);
@@ -119,4 +129,102 @@ header{
 #nodejs-icon img{
     filter: brightness(0) saturate(100%) invert(40%) sepia(72%) saturate(441%) hue-rotate(81deg) brightness(95%) contrast(90%);
 }
+
+@media (min-width: 768px) {
+    header{
+        height: 100vh;
+    }
+
+    .container{
+        height: 90vh;    
+        padding: 0 2rem 0;
+   
+    }
+
+    .picture{
+        margin-bottom: 5.6rem;
+    }    
+
+    .text{
+        width: 68rem;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 5rem;
+
+    }
+
+    .text-about{
+        width: 68rem;
+    }
+
+    .tech-stack-list{
+        grid-template-columns: repeat(3, 1fr);
+
+        margin-bottom: 5rem;
+    }
+}   
+
+@media (min-width: 1024px) {
+    header{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container{
+        height: 90vh;    
+        width: 100vw;
+        gap: 5rem;
+
+        padding: 0 2rem 0;
+  
+    }
+
+    .about{
+        width: auto;
+        gap: 5rem;
+    }
+
+    .picture{
+        width: 68rem;
+        margin-bottom: 4rem;
+    }    
+
+    .text{
+        width: 68rem;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 2rem;
+
+    }
+
+    .text-intro{
+        font: var(--subtitle);  
+    }
+
+    .text h1{
+        font: var(--title-lg);
+        color: var(--text-color-primary);
+        margin-bottom: 2rem;
+    }
+
+    .text-about{
+        width: 68rem;
+    }
+
+    .tech-stack-list{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5rem;
+    }
+
+    
+}   
+
+
 
