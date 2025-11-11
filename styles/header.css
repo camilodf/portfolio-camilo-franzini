@@ -2,27 +2,25 @@
 header{
     background-image: var(--bg-img-intro);
     background-size: cover;
-    height: 95vh;   
+    min-height: 100vh;   
 
-    margin-bottom: 5rem;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-between;
     text-align: center;    
-    padding: 4rem 2rem 0; 
+    gap: 4rem;
+    padding: 6rem 2rem 0; 
 }
 
 .about{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
     text-align: center;    
 }
 
@@ -54,7 +52,7 @@ header{
 }
 
 .text-intro{
-    font: var(--subtitle-mobile);
+    font: var(--subtitle);
     color: var(--text-color-secondary);
     margin-bottom: 8px;
 }
@@ -64,7 +62,7 @@ header{
 }
 
 .text h1{
-    font: var(--title-lg-mobile);
+    font: var(--title-lg);
     color: var(--text-color-primary);
     margin-bottom: 2rem;
 }
@@ -94,7 +92,7 @@ header{
     width: 12rem;
 
     background-color: var(--bg-color-tag);
-    border: 1rem;
+    border: 0.1rem solid var(--text-color-tertiary);
     border-radius: 3rem;
     padding: 1rem 1rem;
 
@@ -136,9 +134,7 @@ header{
     }
 
     .container{
-        height: 90vh;    
-        padding: 0 2rem 0;
-   
+        padding: 0 2rem 0;   
     }
 
     .picture{
@@ -174,17 +170,16 @@ header{
     }
 
     .container{
-        height: 90vh;    
         width: 100vw;
         gap: 5rem;
 
-        padding: 0 2rem 0;
-  
+        padding: 6rem 2rem 0;
     }
 
     .about{
         width: auto;
         gap: 5rem;
+
     }
 
     .picture{
@@ -203,14 +198,8 @@ header{
 
     }
 
-    .text-intro{
-        font: var(--subtitle);  
-    }
-
     .text h1{
-        font: var(--title-lg);
-        color: var(--text-color-primary);
-        margin-bottom: 2rem;
+           margin-bottom: 2rem;
     }
 
     .text-about{
@@ -218,9 +207,8 @@ header{
     }
 
     .tech-stack-list{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 5rem;
+        grid-template-columns: repeat(6, 1fr);
+        margin-bottom: 15rem;
     }
 
     

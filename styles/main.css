@@ -3,6 +3,8 @@ main{
     width: auto;
 
     margin-bottom: 2rem;
+
+    border: 1px solid red;
 }
 section{
     display: flex; 
@@ -11,10 +13,12 @@ section{
 }
 #projects{
     padding: 0 2rem;
+    border: 1px solid yellow;
 }
 
 .text-projects{
     text-align: center;    
+    border: 1px solid blue;
 }
 
 .text-projects p{
@@ -36,6 +40,7 @@ section{
 .cards-grid{
     display: flex;
     flex-direction: column;
+    border: 1px solid green;
     gap: 2rem;
 }
 .cards-grid .cards{
@@ -98,6 +103,10 @@ section{
 
 @media screen and (min-width: 1024px) {
 
+    main{
+        height: 100vh;
+    }
+
 
     .text-projects p{
         font: var(--text-md);
@@ -111,23 +120,43 @@ section{
     .cards-grid{
        display: grid;
        grid-template-columns: 1fr 1fr 1fr;
-        width: 100rem;
+        width: auto;
         margin: auto;
+    }
+
+    .cards-grid .cards{
+        width: 40rem;
+        height: auto;
     }
 
 
     .cards-content{
+        width: auto;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        gap: 1rem;
+        
+        border: 1px solid orange;
     }
 
     .cards-grid .cards img{
-        width: 35rem;
-        height: 20rem;
+        /* 1. Faz a imagem preencher 100% da largura do card */
+  width: 100%; 
+
+  /* 2. Remove a altura fixa para evitar distorção */
+  height: auto; 
+  
+  /* 3. A MÁGICA: Força a imagem a ter uma proporção 16:9 */
+  aspect-ratio: 16 / 9; 
+  
+  /* 4. Garante que a imagem CUBRA esse espaço, cortando
+        o excesso sem achatar ou esticar. */
+  object-fit: cover; 
+  
+  /* 5. Mantenha seu border-radius para os cantos arredondados */
+  border-radius: 1rem;
     }
 
     .cards h3{
