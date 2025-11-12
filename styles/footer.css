@@ -15,11 +15,11 @@ footer{
 
 .text-services span{
     color: var(--text-span-title) ;
-    font: var(--subtitle-mobile);
+    font: var(--subtitle);
 }
 
 .text-services h3{
-    font: var(--title-md-mobile);
+    font: var(--title-md);
     color: var(--text-color-primary);
     margin-bottom: 2rem;
 }
@@ -49,13 +49,13 @@ footer{
 }
 
 .services-cards h3{
-    font: var(--title-sm-mobile);
+    font: var(--title-sm);
     color: var(--text-color-primary);
     margin-bottom: 0.5rem;
 }
 
 .services-cards p{
-    font: var(--text-sm-mobile);
+    font: var(--text-sm);
     color: var(--text-color-secondary);
 }
 
@@ -76,13 +76,13 @@ footer{
 }
 
 .text-contacts p{
-    font: var(--text-sm-mobile);
+    font: var(--text-sm);
     margin-bottom: 1rem;
 }
 
 .text-contacts span{
     color: var(--text-span-contact);
-    font: var(--subtitle-mobile);
+    font: var(--subtitle);
    
 }
 
@@ -134,12 +134,8 @@ footer{
         height: 50rem;    
 
     }
-    .text-services span{
-        font: var(--subtitle);
-    }
 
     .text-services h3{
-        font: var(--title-md);
         margin-bottom: 5.6rem;
     }
 
@@ -165,13 +161,11 @@ footer{
     }
 
     .text-contacts p{
-        font: var(--text-sm);
         margin-bottom: 1rem;
 
     }
 
     .text-contacts span{
-        font: var(--subtitle); 
         margin-top: 8rem;
     
     }
