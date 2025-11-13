@@ -57,14 +57,14 @@ section{
 }
 
 .cards h3{
-    font: var(--title-sm-mobile);
+    font: var(--title-sm);
     color: var(--text-color-primary);
     margin: 1rem 0;
     justify-content: center;
 }
 
 .cards p{
-    font: var(--text-sm-mobile);
+    font: var(--text-sm);
     color: var(--text-color-secondary);
     margin-bottom: 1.5rem;
 }
